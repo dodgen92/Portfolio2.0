@@ -8,12 +8,15 @@ $(window).on('load', function() {
 
   // Image swap to pixel after 4 seconds
   setTimeout(function() {
-    $('.header-image img').attr('src', 'images/pixelremy.png');
-    
-    // Change to red pixel after 4 seconds
-  
-  }, 3000);
+    $('.header-image img').attr('src', 'images/pixelremy.png');}, 3000);
+    setTimeout(function() {
+      $('.about-img img').attr('src', 'images/guitar-pixelated.png');
+  }, 15000);
 });
+
+
+
+
 $(function() {
   $('.color-panel').on("click", function(e) {
     e.preventDefault();
