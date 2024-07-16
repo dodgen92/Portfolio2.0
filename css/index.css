@@ -1080,10 +1080,10 @@ padding-bottom: 40px;
     justify-content: center;
 }
 .contact-info{
-    width: 40%;
+    width: 90%;
     height: 500px;
-    background: url(../images/contact-back.jpg);
-    background-position: center;
+    background: url("../images/contact.jpg");
+    background-position: left;
     background-size: cover;
     border-radius: 16px;
     margin-bottom: 50px;
